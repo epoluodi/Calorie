@@ -4,6 +4,19 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="HYShiGuangTiW.ttf">
+            <string>HYShiGuangTiW</string>
+            <string>HYShiGuangTiW</string>
+            <string>HYShiGuangTiW</string>
+            <string>HYShiGuangTiW</string>
+            <string>HYShiGuangTiW</string>
+            <string>HYShiGuangTiW</string>
+            <string>HYShiGuangTiW</string>
+            <string>HYShiGuangTiW</string>
+            <string>HYShiGuangTiW</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -17,64 +30,149 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="zFe-ft-KfW">
-                                <rect key="frame" x="164" y="237" width="123" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" enablesReturnKeyAutomatically="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backimg.png" translatesAutoresizingMaskIntoConstraints="NO" id="eBG-zA-etg">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1卡路里=4.186焦耳" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fF9-cB-ony">
+                                <rect key="frame" x="20" y="521" width="280" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="rHa-JA-MRy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HYShiGuangTiW" family="HYShiGuangTiW" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请输入你吃了多少：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tCo-fJ-p0z">
+                                <rect key="frame" x="20" y="351" width="280" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="BeQ-nH-ZSC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HYShiGuangTiW" family="HYShiGuangTiW" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(详见食品外包装)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ShU-Hw-r7d">
+                                <rect key="frame" x="20" y="189" width="280" height="17"/>
+                                <fontDescription key="fontDescription" name="HYShiGuangTiW" family="HYShiGuangTiW" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请输入食品信息:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PFW-kn-teW">
+                                <rect key="frame" x="20" y="155" width="280" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="93E-si-4iL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HYShiGuangTiW" family="HYShiGuangTiW" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" minimumFontSize="17" background="00.png" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="kTs-be-1Ak">
+                                <rect key="frame" x="105" y="281" width="110" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="8r0-rs-MbD"/>
+                                    <constraint firstAttribute="height" constant="50" id="bGJ-yw-aR6"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HYShiGuangTiW" family="HYShiGuangTiW" pointSize="42"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="kTs-be-1Ak">
-                                <rect key="frame" x="164" y="115" width="123" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" enablesReturnKeyAutomatically="YES"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="100" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="lr0-0n-rGf">
-                                <rect key="frame" x="164" y="178" width="123" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" enablesReturnKeyAutomatically="YES"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i8L-Yg-Ey3">
-                                <rect key="frame" x="137" y="414" width="46" height="30"/>
-                                <state key="normal" title="计算"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i8L-Yg-Ey3">
+                                <rect key="frame" x="51" y="464" width="219" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="Xwj-Mf-10m"/>
+                                    <constraint firstAttribute="width" constant="219" id="dCk-Nb-FYS"/>
+                                </constraints>
+                                <state key="normal" image="btn1.png"/>
+                                <state key="highlighted" image="btn2.png"/>
                                 <connections>
                                     <action selector="clickbtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hlD-cl-2wY"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="能量(KJ)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H2D-Pq-8Me">
-                                <rect key="frame" x="9" y="119" width="123" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Upn-iO-TNl">
+                                <rect key="frame" x="20" y="77" width="280" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="ABt-fU-2Ru"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HYShiGuangTiW" family="HYShiGuangTiW" pointSize="56"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="单位(G)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dRg-bz-nAv">
-                                <rect key="frame" x="9" y="182" width="123" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="物品质量" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Xl-dY-jS3">
-                                <rect key="frame" x="9" y="241" width="123" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="卡路里值" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p8z-ea-pYA">
-                                <rect key="frame" x="99" y="315" width="123" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="b3V-gI-OWI">
-                                <rect key="frame" x="63" y="344" width="194" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="100" textAlignment="center" minimumFontSize="17" background="00.png" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="lr0-0n-rGf">
+                                <rect key="frame" x="105" y="221" width="110" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Jeo-EA-eB7"/>
+                                    <constraint firstAttribute="width" constant="110" id="Z9V-sW-OYv"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HYShiGuangTiW" family="HYShiGuangTiW" pointSize="42"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
                             </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" minimumFontSize="17" background="00.png" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="zFe-ft-KfW">
+                                <rect key="frame" x="105" y="390" width="110" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="bRT-9e-4o3"/>
+                                    <constraint firstAttribute="width" constant="110" id="oiq-PG-6SY"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HYShiGuangTiW" family="HYShiGuangTiW" pointSize="42"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1毫升＝1克" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2bI-4J-Wjl">
+                                <rect key="frame" x="20" y="490" width="280" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="UoN-zM-e2W"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HYShiGuangTiW" family="HYShiGuangTiW" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lr0-0n-rGf" firstAttribute="centerX" secondItem="eBG-zA-etg" secondAttribute="centerX" id="09J-4R-ylG"/>
+                            <constraint firstItem="fF9-cB-ony" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="1Ud-R8-sNg"/>
+                            <constraint firstItem="ShU-Hw-r7d" firstAttribute="top" secondItem="PFW-kn-teW" secondAttribute="bottom" constant="2" id="1hf-DS-ZED"/>
+                            <constraint firstItem="tCo-fJ-p0z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="3Bp-Ol-PH3"/>
+                            <constraint firstItem="PFW-kn-teW" firstAttribute="top" secondItem="Upn-iO-TNl" secondAttribute="bottom" constant="44" id="5lN-p1-0oN"/>
+                            <constraint firstItem="fF9-cB-ony" firstAttribute="top" secondItem="2bI-4J-Wjl" secondAttribute="bottom" constant="8" id="7M2-zw-r9p"/>
+                            <constraint firstAttribute="trailing" secondItem="Upn-iO-TNl" secondAttribute="trailing" constant="20" id="7sq-PJ-IKd"/>
+                            <constraint firstItem="i8L-Yg-Ey3" firstAttribute="top" secondItem="zFe-ft-KfW" secondAttribute="bottom" constant="24" id="9Fb-hJ-Dnr"/>
+                            <constraint firstAttribute="trailing" secondItem="fF9-cB-ony" secondAttribute="trailing" constant="20" id="Amo-KI-ruI"/>
+                            <constraint firstAttribute="trailing" secondItem="ShU-Hw-r7d" secondAttribute="trailing" constant="20" id="Bn9-Wi-r2W"/>
+                            <constraint firstItem="Upn-iO-TNl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="HBz-PI-cCI"/>
+                            <constraint firstItem="Upn-iO-TNl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="57" id="Hom-lk-nqC"/>
+                            <constraint firstItem="zFe-ft-KfW" firstAttribute="centerX" secondItem="eBG-zA-etg" secondAttribute="centerX" id="IDx-44-jfR"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="eBG-zA-etg" secondAttribute="bottom" id="IVb-wa-8TV"/>
+                            <constraint firstItem="2bI-4J-Wjl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Jo6-ie-DnI"/>
+                            <constraint firstItem="kTs-be-1Ak" firstAttribute="top" secondItem="lr0-0n-rGf" secondAttribute="bottom" constant="10" id="L9t-BJ-uFQ"/>
+                            <constraint firstAttribute="trailing" secondItem="tCo-fJ-p0z" secondAttribute="trailing" constant="20" id="N45-02-A6l"/>
+                            <constraint firstItem="PFW-kn-teW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="OEU-aV-Fd7"/>
+                            <constraint firstItem="zFe-ft-KfW" firstAttribute="top" secondItem="kTs-be-1Ak" secondAttribute="bottom" constant="10" id="Qv2-YX-W7K"/>
+                            <constraint firstItem="eBG-zA-etg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="SZO-Eq-5d5"/>
+                            <constraint firstItem="lr0-0n-rGf" firstAttribute="top" secondItem="PFW-kn-teW" secondAttribute="bottom" constant="34" id="U8x-WJ-Fgv"/>
+                            <constraint firstAttribute="trailing" secondItem="eBG-zA-etg" secondAttribute="trailing" id="VHb-s2-Jic"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fF9-cB-ony" secondAttribute="bottom" constant="21" id="WQp-6J-keQ"/>
+                            <constraint firstItem="kTs-be-1Ak" firstAttribute="centerX" secondItem="eBG-zA-etg" secondAttribute="centerX" id="Wun-9z-B3D"/>
+                            <constraint firstItem="i8L-Yg-Ey3" firstAttribute="centerX" secondItem="eBG-zA-etg" secondAttribute="centerX" id="dSn-Yi-QPf"/>
+                            <constraint firstAttribute="trailing" secondItem="2bI-4J-Wjl" secondAttribute="trailing" constant="20" id="fqy-QR-2Rl"/>
+                            <constraint firstItem="zFe-ft-KfW" firstAttribute="top" secondItem="tCo-fJ-p0z" secondAttribute="bottom" constant="7" id="mBO-Bo-5S1"/>
+                            <constraint firstItem="ShU-Hw-r7d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="pgf-L3-vrv"/>
+                            <constraint firstItem="tCo-fJ-p0z" firstAttribute="top" secondItem="kTs-be-1Ak" secondAttribute="bottom" constant="20" id="rCG-bE-CvZ"/>
+                            <constraint firstItem="eBG-zA-etg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tpz-wx-L8d"/>
+                            <constraint firstAttribute="trailing" secondItem="PFW-kn-teW" secondAttribute="trailing" constant="20" id="uuk-gw-12J"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Qv2-YX-W7K"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="nTs-rf-cxR"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="btn1" destination="i8L-Yg-Ey3" id="jlh-Ri-Bn6"/>
-                        <outlet property="cal" destination="b3V-gI-OWI" id="MWs-tE-dSl"/>
+                        <outlet property="cal" destination="Upn-iO-TNl" id="hck-MV-mIC"/>
                         <outlet property="kj" destination="kTs-be-1Ak" id="xc0-BD-D4d"/>
                         <outlet property="unit" destination="lr0-0n-rGf" id="RCl-mh-o8r"/>
                         <outlet property="weight" destination="zFe-ft-KfW" id="oIU-KL-BRL"/>
@@ -82,7 +180,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="253" y="372"/>
+            <point key="canvasLocation" x="1149" y="372"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="00.png" width="70" height="50"/>
+        <image name="backimg.png" width="487" height="591"/>
+        <image name="btn1.png" width="300" height="60"/>
+        <image name="btn2.png" width="300" height="60"/>
+    </resources>
 </document>
