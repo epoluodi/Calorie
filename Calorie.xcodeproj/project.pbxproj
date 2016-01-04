@@ -22,6 +22,7 @@
 		7B8075851C39692100C7D0EF /* btn2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B8075831C39692100C7D0EF /* btn2.png */; };
 		7B8075861C39692100C7D0EF /* btn1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B8075841C39692100C7D0EF /* btn1.png */; };
 		7B8075881C3971CD00C7D0EF /* nickimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B8075871C3971CD00C7D0EF /* nickimg.png */; };
+		7BAAC0301C3AC06000FED769 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BAAC02F1C3AC06000FED769 /* splash.png */; };
 		B43146481C3A57EA00BE6A4A /* biviewconttroller.m in Sources */ = {isa = PBXBuildFile; fileRef = B43146471C3A57EA00BE6A4A /* biviewconttroller.m */; };
 		B431464A1C3A621500BE6A4A /* cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43146491C3A621500BE6A4A /* cell.xib */; };
 		B431464D1C3A669E00BE6A4A /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = B431464C1C3A669E00BE6A4A /* Cell.m */; };
@@ -69,6 +70,7 @@
 		7B8075831C39692100C7D0EF /* btn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn2.png; sourceTree = "<group>"; };
 		7B8075841C39692100C7D0EF /* btn1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn1.png; sourceTree = "<group>"; };
 		7B8075871C3971CD00C7D0EF /* nickimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nickimg.png; sourceTree = "<group>"; };
+		7BAAC02F1C3AC06000FED769 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
 		B43146461C3A57EA00BE6A4A /* biviewconttroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = biviewconttroller.h; sourceTree = "<group>"; };
 		B43146471C3A57EA00BE6A4A /* biviewconttroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = biviewconttroller.m; sourceTree = "<group>"; };
 		B43146491C3A621500BE6A4A /* cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cell.xib; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		7B80755F1C36C2D000C7D0EF /* Calorie */ = {
 			isa = PBXGroup;
 			children = (
+				7BAAC02F1C3AC06000FED769 /* splash.png */,
 				B43146601C3A6DE100BE6A4A /* food_qkl.png */,
 				B431465E1C3A6DCF00BE6A4A /* food_xigua.png */,
 				B431465C1C3A6DC000BE6A4A /* food_ice.png */,
@@ -228,6 +231,7 @@
 				B43146611C3A6DE100BE6A4A /* food_qkl.png in Resources */,
 				B431465B1C3A6DB300BE6A4A /* food_rice.png in Resources */,
 				B431464A1C3A621500BE6A4A /* cell.xib in Resources */,
+				7BAAC0301C3AC06000FED769 /* splash.png in Resources */,
 				7B8075851C39692100C7D0EF /* btn2.png in Resources */,
 				7B8075861C39692100C7D0EF /* btn1.png in Resources */,
 				7B80757B1C39600A00C7D0EF /* 00.png in Resources */,

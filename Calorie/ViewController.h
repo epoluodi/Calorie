@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 #import <Common/PublicCommon.h>
 
+
+
+
 @interface ViewController : UIViewController<UITextFieldDelegate>
 {
     UILabel *lcal ;
@@ -22,6 +25,8 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *cal;
 
+@property (weak, nonatomic) IBOutlet UILabel *txt1;
+@property (weak, nonatomic) IBOutlet UILabel *txt2;
 
 @property (weak, nonatomic) IBOutlet UIButton *btn1;
 

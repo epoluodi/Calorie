@@ -21,6 +21,7 @@
 @synthesize unit;
 @synthesize btn1;
 @synthesize weight;
+@synthesize txt1,txt2;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -45,15 +46,18 @@
     if (iPhone4)
     {
         NSLayoutConstraint *layout =  self.view.constraints[5];
-        layout.constant= 37;
+        layout.constant= 10;
+    layout =  self.view.constraints[6];
+    layout.constant= 10;
     }
-    
+
     if (iPhone5)
     {
         NSLayoutConstraint *layout =  self.view.constraints[5];
         layout.constant= 47;
     }
     
+
     
 }
 
@@ -83,10 +87,13 @@
     lcal.textColor=[UIColor whiteColor];
     [self.view addSubview:lcal];
     
-
+    if (iPhone4)
+        font = [UIFont fontWithName:@"HYShiGuangTiW" size:24];
+    else
+        font = [UIFont fontWithName:@"HYShiGuangTiW" size:35];
     
     lm = [[UILabel alloc] init];
-    font = [UIFont fontWithName:@"HYShiGuangTiW" size:35];
+ 
     lm.font = font;
     lm.text=@"每";
     fontsize = [lm.text sizeWithFont:font];
@@ -100,7 +107,7 @@
     [self.view addSubview:lm];
     
     lg1 = [[UILabel alloc] init];
-    font = [UIFont fontWithName:@"HYShiGuangTiW" size:35];
+//    font = [UIFont fontWithName:@"HYShiGuangTiW" size:35];
     lg1.font = font;
     lg1.text=@"g";
     fontsize = [lm.text sizeWithFont:font];
@@ -117,7 +124,7 @@
     
 
     lnl = [[UILabel alloc] init];
-    font = [UIFont fontWithName:@"HYShiGuangTiW" size:35];
+//    font = [UIFont fontWithName:@"HYShiGuangTiW" size:35];
     lnl.font = font;
     lnl.text=@"能量";
     fontsize = [lnl.text sizeWithFont:font];
@@ -132,7 +139,7 @@
     
     
     lkj = [[UILabel alloc] init];
-    font = [UIFont fontWithName:@"HYShiGuangTiW" size:35];
+//    font = [UIFont fontWithName:@"HYShiGuangTiW" size:35];
     lkj.font = font;
     lkj.text=@"kj";
     fontsize = [lkj.text sizeWithFont:font];
@@ -153,7 +160,7 @@
     
     
     lcal = [[UILabel alloc] init];
-    font = [UIFont fontWithName:@"HYShiGuangTiW" size:35];
+//    font = [UIFont fontWithName:@"HYShiGuangTiW" size:35];
     lcal.font = font;
     lcal.text=@"摄入量";
     fontsize = [lcal.text sizeWithFont:font];
@@ -167,7 +174,7 @@
     [self.view addSubview:lcal];
     
     lg2 = [[UILabel alloc] init];
-    font = [UIFont fontWithName:@"HYShiGuangTiW" size:35];
+//    font = [UIFont fontWithName:@"HYShiGuangTiW" size:35];
     lg2.font = font;
     lg2.text=@"g";
     fontsize = [lkj.text sizeWithFont:font];
@@ -181,7 +188,20 @@
     [self.view addSubview:lg2];
     
     
-    if(iPhone6)
+    
+    
+    if (iPhone4)
+    {
+            txt1.font =[UIFont fontWithName:@"HYShiGuangTiW" size:12];
+            txt2.font =[UIFont fontWithName:@"HYShiGuangTiW" size:12];
+    NSLayoutConstraint *layout1 =  self.view.constraints[26];
+    layout1.constant= -10;
+    
+    }
+
+
+    
+    if(iPhone5)
     {
        NSLayoutConstraint *layout =  self.view.constraints[18];
         layout.constant= 40;

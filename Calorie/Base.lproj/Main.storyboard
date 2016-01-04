@@ -176,6 +176,8 @@
                         <outlet property="btn1" destination="i8L-Yg-Ey3" id="jlh-Ri-Bn6"/>
                         <outlet property="cal" destination="Upn-iO-TNl" id="hck-MV-mIC"/>
                         <outlet property="kj" destination="kTs-be-1Ak" id="xc0-BD-D4d"/>
+                        <outlet property="txt1" destination="2bI-4J-Wjl" id="wQm-oK-K3U"/>
+                        <outlet property="txt2" destination="fF9-cB-ony" id="NAg-6S-8Rq"/>
                         <outlet property="unit" destination="lr0-0n-rGf" id="RCl-mh-o8r"/>
                         <outlet property="weight" destination="zFe-ft-KfW" id="oIU-KL-BRL"/>
                     </connections>
