@@ -15,6 +15,8 @@
             <string>HYShiGuangTiW</string>
             <string>HYShiGuangTiW</string>
             <string>HYShiGuangTiW</string>
+            <string>HYShiGuangTiW</string>
+            <string>HYShiGuangTiW</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -181,6 +183,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1149" y="372"/>
+        </scene>
+        <!--Biviewconttroller-->
+        <scene sceneID="pDt-t9-ztz">
+            <objects>
+                <viewController id="3Ij-zp-xwe" customClass="biviewconttroller" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Yvs-1h-jUS"/>
+                        <viewControllerLayoutGuide type="bottom" id="UaV-UH-Mwo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zEb-xi-Dh6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backimg.png" translatesAutoresizingMaskIntoConstraints="NO" id="sUS-66-c2T">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="比一比" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hn-JY-T7n">
+                                <rect key="frame" x="0.0" y="87" width="320" height="21"/>
+                                <fontDescription key="fontDescription" name="HYShiGuangTiW" family="HYShiGuangTiW" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1892 大卡" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ba5-si-by2">
+                                <rect key="frame" x="0.0" y="52" width="320" height="38"/>
+                                <fontDescription key="fontDescription" name="HYShiGuangTiW" family="HYShiGuangTiW" pointSize="39"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tfh-Pf-6LP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1739" y="372"/>
         </scene>
     </scenes>
     <resources>

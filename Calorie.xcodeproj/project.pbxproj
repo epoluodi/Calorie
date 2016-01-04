@@ -22,6 +22,19 @@
 		7B8075851C39692100C7D0EF /* btn2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B8075831C39692100C7D0EF /* btn2.png */; };
 		7B8075861C39692100C7D0EF /* btn1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B8075841C39692100C7D0EF /* btn1.png */; };
 		7B8075881C3971CD00C7D0EF /* nickimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B8075871C3971CD00C7D0EF /* nickimg.png */; };
+		B43146481C3A57EA00BE6A4A /* biviewconttroller.m in Sources */ = {isa = PBXBuildFile; fileRef = B43146471C3A57EA00BE6A4A /* biviewconttroller.m */; };
+		B431464A1C3A621500BE6A4A /* cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43146491C3A621500BE6A4A /* cell.xib */; };
+		B431464D1C3A669E00BE6A4A /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = B431464C1C3A669E00BE6A4A /* Cell.m */; };
+		B431464F1C3A6AF800BE6A4A /* food_apple.png in Resources */ = {isa = PBXBuildFile; fileRef = B431464E1C3A6AF800BE6A4A /* food_apple.png */; };
+		B43146511C3A6B1C00BE6A4A /* food_chicken.png in Resources */ = {isa = PBXBuildFile; fileRef = B43146501C3A6B1C00BE6A4A /* food_chicken.png */; };
+		B43146531C3A6B3E00BE6A4A /* food_handbag.png in Resources */ = {isa = PBXBuildFile; fileRef = B43146521C3A6B3E00BE6A4A /* food_handbag.png */; };
+		B43146551C3A6D8700BE6A4A /* food_shutiao.png in Resources */ = {isa = PBXBuildFile; fileRef = B43146541C3A6D8700BE6A4A /* food_shutiao.png */; };
+		B43146571C3A6D9600BE6A4A /* food_beef.png in Resources */ = {isa = PBXBuildFile; fileRef = B43146561C3A6D9600BE6A4A /* food_beef.png */; };
+		B43146591C3A6DA500BE6A4A /* food_egg.png in Resources */ = {isa = PBXBuildFile; fileRef = B43146581C3A6DA500BE6A4A /* food_egg.png */; };
+		B431465B1C3A6DB300BE6A4A /* food_rice.png in Resources */ = {isa = PBXBuildFile; fileRef = B431465A1C3A6DB300BE6A4A /* food_rice.png */; };
+		B431465D1C3A6DC000BE6A4A /* food_ice.png in Resources */ = {isa = PBXBuildFile; fileRef = B431465C1C3A6DC000BE6A4A /* food_ice.png */; };
+		B431465F1C3A6DCF00BE6A4A /* food_xigua.png in Resources */ = {isa = PBXBuildFile; fileRef = B431465E1C3A6DCF00BE6A4A /* food_xigua.png */; };
+		B43146611C3A6DE100BE6A4A /* food_qkl.png in Resources */ = {isa = PBXBuildFile; fileRef = B43146601C3A6DE100BE6A4A /* food_qkl.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -56,6 +69,21 @@
 		7B8075831C39692100C7D0EF /* btn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn2.png; sourceTree = "<group>"; };
 		7B8075841C39692100C7D0EF /* btn1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn1.png; sourceTree = "<group>"; };
 		7B8075871C3971CD00C7D0EF /* nickimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nickimg.png; sourceTree = "<group>"; };
+		B43146461C3A57EA00BE6A4A /* biviewconttroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = biviewconttroller.h; sourceTree = "<group>"; };
+		B43146471C3A57EA00BE6A4A /* biviewconttroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = biviewconttroller.m; sourceTree = "<group>"; };
+		B43146491C3A621500BE6A4A /* cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cell.xib; sourceTree = "<group>"; };
+		B431464B1C3A669E00BE6A4A /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		B431464C1C3A669E00BE6A4A /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		B431464E1C3A6AF800BE6A4A /* food_apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food_apple.png; sourceTree = "<group>"; };
+		B43146501C3A6B1C00BE6A4A /* food_chicken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food_chicken.png; sourceTree = "<group>"; };
+		B43146521C3A6B3E00BE6A4A /* food_handbag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food_handbag.png; sourceTree = "<group>"; };
+		B43146541C3A6D8700BE6A4A /* food_shutiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food_shutiao.png; sourceTree = "<group>"; };
+		B43146561C3A6D9600BE6A4A /* food_beef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food_beef.png; sourceTree = "<group>"; };
+		B43146581C3A6DA500BE6A4A /* food_egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food_egg.png; sourceTree = "<group>"; };
+		B431465A1C3A6DB300BE6A4A /* food_rice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food_rice.png; sourceTree = "<group>"; };
+		B431465C1C3A6DC000BE6A4A /* food_ice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food_ice.png; sourceTree = "<group>"; };
+		B431465E1C3A6DCF00BE6A4A /* food_xigua.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food_xigua.png; sourceTree = "<group>"; };
+		B43146601C3A6DE100BE6A4A /* food_qkl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food_qkl.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +117,16 @@
 		7B80755F1C36C2D000C7D0EF /* Calorie */ = {
 			isa = PBXGroup;
 			children = (
+				B43146601C3A6DE100BE6A4A /* food_qkl.png */,
+				B431465E1C3A6DCF00BE6A4A /* food_xigua.png */,
+				B431465C1C3A6DC000BE6A4A /* food_ice.png */,
+				B431465A1C3A6DB300BE6A4A /* food_rice.png */,
+				B43146581C3A6DA500BE6A4A /* food_egg.png */,
+				B43146561C3A6D9600BE6A4A /* food_beef.png */,
+				B43146541C3A6D8700BE6A4A /* food_shutiao.png */,
+				B43146521C3A6B3E00BE6A4A /* food_handbag.png */,
+				B43146501C3A6B1C00BE6A4A /* food_chicken.png */,
+				B431464E1C3A6AF800BE6A4A /* food_apple.png */,
 				7B8075871C3971CD00C7D0EF /* nickimg.png */,
 				7B8075831C39692100C7D0EF /* btn2.png */,
 				7B8075841C39692100C7D0EF /* btn1.png */,
@@ -106,6 +144,11 @@
 				7B80756E1C36C2D000C7D0EF /* LaunchScreen.storyboard */,
 				7B8075711C36C2D000C7D0EF /* Info.plist */,
 				7B8075601C36C2D000C7D0EF /* Supporting Files */,
+				B43146461C3A57EA00BE6A4A /* biviewconttroller.h */,
+				B43146471C3A57EA00BE6A4A /* biviewconttroller.m */,
+				B43146491C3A621500BE6A4A /* cell.xib */,
+				B431464B1C3A669E00BE6A4A /* Cell.h */,
+				B431464C1C3A669E00BE6A4A /* Cell.m */,
 			);
 			path = Calorie;
 			sourceTree = "<group>";
@@ -177,16 +220,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B431465D1C3A6DC000BE6A4A /* food_ice.png in Resources */,
 				7B80757C1C39606600C7D0EF /* HYShiGuangTiW.ttf in Resources */,
+				B43146551C3A6D8700BE6A4A /* food_shutiao.png in Resources */,
+				B43146591C3A6DA500BE6A4A /* food_egg.png in Resources */,
+				B43146511C3A6B1C00BE6A4A /* food_chicken.png in Resources */,
+				B43146611C3A6DE100BE6A4A /* food_qkl.png in Resources */,
+				B431465B1C3A6DB300BE6A4A /* food_rice.png in Resources */,
+				B431464A1C3A621500BE6A4A /* cell.xib in Resources */,
 				7B8075851C39692100C7D0EF /* btn2.png in Resources */,
 				7B8075861C39692100C7D0EF /* btn1.png in Resources */,
 				7B80757B1C39600A00C7D0EF /* 00.png in Resources */,
 				7B8075881C3971CD00C7D0EF /* nickimg.png in Resources */,
+				B431464F1C3A6AF800BE6A4A /* food_apple.png in Resources */,
+				B43146571C3A6D9600BE6A4A /* food_beef.png in Resources */,
 				7B8075781C39578E00C7D0EF /* backimg.png in Resources */,
+				B431465F1C3A6DCF00BE6A4A /* food_xigua.png in Resources */,
 				7B8075701C36C2D000C7D0EF /* LaunchScreen.storyboard in Resources */,
 				7B8075821C3965BB00C7D0EF /* logo.png in Resources */,
 				7B80756D1C36C2D000C7D0EF /* Assets.xcassets in Resources */,
 				7B80756B1C36C2D000C7D0EF /* Main.storyboard in Resources */,
+				B43146531C3A6B3E00BE6A4A /* food_handbag.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +251,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B431464D1C3A669E00BE6A4A /* Cell.m in Sources */,
+				B43146481C3A57EA00BE6A4A /* biviewconttroller.m in Sources */,
 				7B8075681C36C2D000C7D0EF /* ViewController.m in Sources */,
 				7B8075651C36C2D000C7D0EF /* AppDelegate.m in Sources */,
 				7B8075621C36C2D000C7D0EF /* main.m in Sources */,

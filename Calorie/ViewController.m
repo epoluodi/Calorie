@@ -41,6 +41,20 @@
 ////
 //       unit.inputAccessoryView = [PublicCommon getInputToolbar:self sel:@selector(closeinput)];
 //       weight.inputAccessoryView = [PublicCommon getInputToolbar:self sel:@selector(closeinput)];
+    
+    if (iPhone4)
+    {
+        NSLayoutConstraint *layout =  self.view.constraints[5];
+        layout.constant= 37;
+    }
+    
+    if (iPhone5)
+    {
+        NSLayoutConstraint *layout =  self.view.constraints[5];
+        layout.constant= 47;
+    }
+    
+    
 }
 
 -(void)viewDidAppear:(BOOL)animated
@@ -205,14 +219,16 @@
     }
     
     
+    
 }
 
 
 -(void)textFieldDidBeginEditing:(UITextField *)textField
 {
-    
+    if (!iPhone6plus){
     NSLayoutConstraint *layout =  self.view.constraints[5];
     layout.constant= 27;
+    
     
     
     CGRect frame = weight.frame;
@@ -227,6 +243,7 @@
         self.view.frame = CGRectMake(0.0f, -offset, self.view.frame.size.width, self.view.frame.size.height);
     
     [UIView commitAnimations];
+        }
 }
 
 //当用户按下return键或者按回车键，keyboard消失
@@ -239,13 +256,17 @@
 //输入框编辑完成以后，将视图恢复到原始状态
 -(void)textFieldDidEndEditing:(UITextField *)textField
 {
+    if (!iPhone6plus){
     [UIView beginAnimations:@"ResizeForKeyboard" context:nil];
     [UIView setAnimationDuration:0.3f];
+    
     NSLayoutConstraint *layout =  self.view.constraints[5];
     layout.constant= 57;
+    
     self.view.frame =CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
     
     [UIView commitAnimations];
+        }
 }
 
 
