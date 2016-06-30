@@ -43,19 +43,19 @@
 //       unit.inputAccessoryView = [PublicCommon getInputToolbar:self sel:@selector(closeinput)];
 //       weight.inputAccessoryView = [PublicCommon getInputToolbar:self sel:@selector(closeinput)];
     
-    if (iPhone4)
-    {
-        NSLayoutConstraint *layout =  self.view.constraints[5];
-        layout.constant= 10;
-    layout =  self.view.constraints[6];
-    layout.constant= 10;
-    }
-
-    if (iPhone5)
-    {
-        NSLayoutConstraint *layout =  self.view.constraints[5];
-        layout.constant= 47;
-    }
+//    if (iPhone4)
+//    {
+//        NSLayoutConstraint *layout =  self.view.constraints[5];
+//        layout.constant= 10;
+//    layout =  self.view.constraints[6];
+//    layout.constant= 10;
+//    }
+//
+//    if (iPhone5)
+//    {
+//        NSLayoutConstraint *layout =  self.view.constraints[5];
+//        layout.constant= 47;
+//    }
     
 
     
@@ -75,7 +75,7 @@
     CGRect rect;
     CGSize fontsize;
     lcal = [[UILabel alloc] init];
-    font = [UIFont fontWithName:@"HYShiGuangTiW" size:24];
+    font = [UIFont fontWithName:@"HYShiGuangTiW" size:20];
     lcal.font = font;
     lcal.text=@"cal";
     fontsize = [lcal.text sizeWithFont:font];
@@ -87,10 +87,10 @@
     lcal.textColor=[UIColor whiteColor];
     [self.view addSubview:lcal];
     
-    if (iPhone4)
+//    if (iPhone4)
+//        font = [UIFont fontWithName:@"HYShiGuangTiW" size:20];
+//    else
         font = [UIFont fontWithName:@"HYShiGuangTiW" size:24];
-    else
-        font = [UIFont fontWithName:@"HYShiGuangTiW" size:35];
     
     lm = [[UILabel alloc] init];
  
@@ -129,14 +129,11 @@
     lnl.text=@"能量";
     fontsize = [lnl.text sizeWithFont:font];
     
-    
-    
     rect = CGRectMake(kj.frame.origin.x - fontsize.width-10, kj.frame.origin.y , fontsize.width, fontsize.height);
     
     lnl.frame = rect;
     lnl.textColor=[UIColor whiteColor];
     [self.view addSubview:lnl];
-    
     
     lkj = [[UILabel alloc] init];
 //    font = [UIFont fontWithName:@"HYShiGuangTiW" size:35];
@@ -144,20 +141,12 @@
     lkj.text=@"kj";
     fontsize = [lkj.text sizeWithFont:font];
     
-    
-    
     rect = CGRectMake(kj.frame.origin.x + kj.frame.size.width +10, kj.frame.origin.y , fontsize.width, fontsize.height);
     
     lkj.frame = rect;
     lkj.textColor=[UIColor whiteColor];
     [self.view addSubview:lkj];
-    
-    
-    
-    
-    
-    
-    
+
     
     lcal = [[UILabel alloc] init];
 //    font = [UIFont fontWithName:@"HYShiGuangTiW" size:35];
@@ -182,7 +171,6 @@
     
     
     rect = CGRectMake(weight.frame.origin.x + weight.frame.size.width +10, weight.frame.origin.y , fontsize.width, fontsize.height);
-    
     lg2.frame = rect;
     lg2.textColor=[UIColor whiteColor];
     [self.view addSubview:lg2];
@@ -190,53 +178,53 @@
     
     
     
-    if (iPhone4)
-    {
-            txt1.font =[UIFont fontWithName:@"HYShiGuangTiW" size:12];
-            txt2.font =[UIFont fontWithName:@"HYShiGuangTiW" size:12];
-    NSLayoutConstraint *layout1 =  self.view.constraints[26];
-    layout1.constant= -10;
-    
-    }
+//    if (iPhone4)
+//    {
+//            txt1.font =[UIFont fontWithName:@"HYShiGuangTiW" size:12];
+//            txt2.font =[UIFont fontWithName:@"HYShiGuangTiW" size:12];
+//    NSLayoutConstraint *layout1 =  self.view.constraints[26];
+//    layout1.constant= -10;
+//    
+//    }
 
 
     
-    if(iPhone5)
-    {
-       NSLayoutConstraint *layout =  self.view.constraints[18];
-        layout.constant= 40;
-        
-        
-        fontsize = [lcal.text sizeWithFont:font];
-        rect = CGRectMake(weight.frame.origin.x - fontsize.width-10, weight.frame.origin.y +20 , fontsize.width, fontsize.height);
-        lcal.frame = rect;
-        
-        
-        fontsize = [lkj.text sizeWithFont:font];
-        rect = CGRectMake(weight.frame.origin.x + weight.frame.size.width +10, weight.frame.origin.y+20 , fontsize.width, fontsize.height);
-        
-        lg2.frame = rect;
-        
-    }
+//    if(iPhone5)
+//    {
+//       NSLayoutConstraint *layout =  self.view.constraints[18];
+//        layout.constant= 28;
+//        
+//        
+//        fontsize = [lcal.text sizeWithFont:font];
+//        rect = CGRectMake(weight.frame.origin.x - fontsize.width-10, weight.frame.origin.y +20 , fontsize.width, fontsize.height);
+//        lcal.frame = rect;
+//        
+//        
+//        fontsize = [lkj.text sizeWithFont:font];
+//        rect = CGRectMake(weight.frame.origin.x + weight.frame.size.width +10, weight.frame.origin.y+20 , fontsize.width, fontsize.height);
+//        
+//        lg2.frame = rect;
+//        
+//    }
     
     
-    if(iPhone6plus)
-    {
-        NSLayoutConstraint *layout =  self.view.constraints[22];
-        layout.constant= 50;
-
+//    if(iPhone6plus)
+//    {
+//        NSLayoutConstraint *layout =  self.view.constraints[22];
+//        layout.constant= 50;
+//
         
-        fontsize = [lcal.text sizeWithFont:font];
-        rect = CGRectMake(weight.frame.origin.x - fontsize.width-10, weight.frame.origin.y +30 , fontsize.width, fontsize.height);
-        lcal.frame = rect;
-        
-        
-        fontsize = [lkj.text sizeWithFont:font];
-        rect = CGRectMake(weight.frame.origin.x + weight.frame.size.width +10, weight.frame.origin.y+30 , fontsize.width, fontsize.height);
-        
-        lg2.frame = rect;
-        
-    }
+//        fontsize = [lcal.text sizeWithFont:font];
+//        rect = CGRectMake(weight.frame.origin.x - fontsize.width-10, weight.frame.origin.y +30 , fontsize.width, fontsize.height);
+//        lcal.frame = rect;
+//        
+//        
+//        fontsize = [lkj.text sizeWithFont:font];
+//        rect = CGRectMake(weight.frame.origin.x + weight.frame.size.width +10, weight.frame.origin.y+30 , fontsize.width, fontsize.height);
+//        
+//        lg2.frame = rect;
+//
+//    }
     
     
     
