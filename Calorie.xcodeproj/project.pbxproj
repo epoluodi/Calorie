@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B006F1B1D2760C000F40B2C /* nextpages.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B006F1A1D2760C000F40B2C /* nextpages.png */; };
+		7B006F1D1D2760EA00F40B2C /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B006F1C1D2760E900F40B2C /* HealthKit.framework */; };
+		7B006F1F1D2769D200F40B2C /* btnreturn.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B006F1E1D2769D200F40B2C /* btnreturn.png */; };
 		7B4F9C5A1D2570BA00B4B924 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B4F9C591D2570BA00B4B924 /* add.png */; };
 		7B4F9C5C1D25758A00B4B924 /* tj.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B4F9C5B1D25758A00B4B924 /* tj.png */; };
 		7B8075621C36C2D000C7D0EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8075611C36C2D000C7D0EF /* main.m */; };
@@ -54,6 +57,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7B006F1A1D2760C000F40B2C /* nextpages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextpages.png; sourceTree = "<group>"; };
+		7B006F1C1D2760E900F40B2C /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		7B006F1E1D2769D200F40B2C /* btnreturn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnreturn.png; sourceTree = "<group>"; };
 		7B4F9C581D256FF900B4B924 /* Calorie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Calorie.entitlements; sourceTree = "<group>"; };
 		7B4F9C591D2570BA00B4B924 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
 		7B4F9C5B1D25758A00B4B924 /* tj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tj.png; sourceTree = "<group>"; };
@@ -98,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B006F1D1D2760EA00F40B2C /* HealthKit.framework in Frameworks */,
 				7B80757E1C39635C00C7D0EF /* Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,6 +115,7 @@
 		7B8075541C36C2CF00C7D0EF = {
 			isa = PBXGroup;
 			children = (
+				7B006F1C1D2760E900F40B2C /* HealthKit.framework */,
 				7B80755F1C36C2D000C7D0EF /* Calorie */,
 				7B80755E1C36C2D000C7D0EF /* Products */,
 			);
@@ -124,6 +132,7 @@
 		7B80755F1C36C2D000C7D0EF /* Calorie */ = {
 			isa = PBXGroup;
 			children = (
+				7B006F1A1D2760C000F40B2C /* nextpages.png */,
 				7B4F9C591D2570BA00B4B924 /* add.png */,
 				7B4F9C581D256FF900B4B924 /* Calorie.entitlements */,
 				7B4F9C5B1D25758A00B4B924 /* tj.png */,
@@ -133,6 +142,7 @@
 				B431465C1C3A6DC000BE6A4A /* food_ice.png */,
 				B431465A1C3A6DB300BE6A4A /* food_rice.png */,
 				B43146581C3A6DA500BE6A4A /* food_egg.png */,
+				7B006F1E1D2769D200F40B2C /* btnreturn.png */,
 				B43146561C3A6D9600BE6A4A /* food_beef.png */,
 				B43146541C3A6D8700BE6A4A /* food_shutiao.png */,
 				B43146521C3A6B3E00BE6A4A /* food_handbag.png */,
@@ -207,7 +217,7 @@
 						DevelopmentTeam = RK2BTW6E76;
 						SystemCapabilities = {
 							com.apple.HealthKit = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -252,7 +262,9 @@
 				7B8075881C3971CD00C7D0EF /* nickimg.png in Resources */,
 				B431464F1C3A6AF800BE6A4A /* food_apple.png in Resources */,
 				B43146571C3A6D9600BE6A4A /* food_beef.png in Resources */,
+				7B006F1F1D2769D200F40B2C /* btnreturn.png in Resources */,
 				7B8075781C39578E00C7D0EF /* backimg.png in Resources */,
+				7B006F1B1D2760C000F40B2C /* nextpages.png in Resources */,
 				B431465F1C3A6DCF00BE6A4A /* food_xigua.png in Resources */,
 				7B8075701C36C2D000C7D0EF /* LaunchScreen.storyboard in Resources */,
 				7B8075821C3965BB00C7D0EF /* logo.png in Resources */,
@@ -384,6 +396,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Calorie/Calorie.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -402,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Calorie/Calorie.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (

@@ -38,10 +38,13 @@
     weight.tintColor = [[UIColor whiteColor] colorWithAlphaComponent:0.5];
     
     weight.delegate=self;
-//    kj.inputAccessoryView = [PublicCommon getInputToolbar:self sel:@selector(closeinput)];
-////
-//       unit.inputAccessoryView = [PublicCommon getInputToolbar:self sel:@selector(closeinput)];
-//       weight.inputAccessoryView = [PublicCommon getInputToolbar:self sel:@selector(closeinput)];
+    
+    
+    
+    kj.inputAccessoryView = [PublicCommon getInputToolbar:self sel:@selector(closeinput)];
+//
+       unit.inputAccessoryView = [PublicCommon getInputToolbar:self sel:@selector(closeinput)];
+       weight.inputAccessoryView = [PublicCommon getInputToolbar:self sel:@selector(closeinput)];
     
 //    if (iPhone4)
 //    {

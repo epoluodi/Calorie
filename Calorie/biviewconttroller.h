@@ -8,10 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import <Common/PublicCommon.h>
+#import <HealthKit/HealthKit.h>
 
-@interface biviewconttroller : UIViewController<UITableViewDataSource,UITableViewDelegate>
+
+@interface biviewconttroller : UIViewController
 {
-    UITableView *table1;
-    UITableView *table2;
+    HKHealthStore *healthstore;
 }
+
+@property (weak, nonatomic) IBOutlet UILabel *stepcount;
+
+- (IBAction)clickreturn:(id)sender;
+
 @end
